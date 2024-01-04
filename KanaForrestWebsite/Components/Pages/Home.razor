@@ -1,0 +1,22 @@
+﻿@page "/"
+@using BlazorAnimate
+
+<PageTitle>Home</PageTitle>
+
+<div style="height: 85vh" class="d-flex flex-column align-center">
+    <MudText Typo="Typo.h2" Class="d-flex">Welcome!</MudText>
+    <MudText Typo="Typo.body2" Class="d-flex">On this page you can find information about Kana Bifrost Lycaen.</MudText>
+</div>
+
+<div class="bottom-right d-flex justify-center flex-column">
+    <MudImage Src="Images\Chibi-KanaForrest.png" Height="600" Alt="Kana and Forrest chibi art" />
+    <MudText Typo="Typo.caption" Align="Align.Center">Art by @@chuunicherry</MudText>
+</div>
+
+<style>
+    .bottom-right {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+</style>
